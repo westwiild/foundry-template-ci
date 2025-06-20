@@ -1,0 +1,14 @@
+{
+  "name": "foundry-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Supeeerpower/foundry-template.git",
+  "author": "Supeeerpower <126687680+Supeeerpower@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "solhint": "^5.1.0"
+  },
+  "scripts": {
+    "lint": "solhint 'src/**/*.sol' 'script/**/*.sol' 'test/**/*.sol'"
+  }
+}
